@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    
+	<div class="container">
+    	
+    	<form action="" method="POST">
+
+		
+		<?php
+
+			if(isset($_POST['apostar']))
+
+
+		?>
+
+
+    	<h1 class="display-4 text-center mt-4">BOLÃO DOS JOGOS</h1>
+
+    	<div class="row d-flex justify-content-center">
+
+    		<div class="col-sm-3">    		
+				<div class="form-group">					
+					<label for="formGroupExampleInput"></label>
+					<img src="img/brasil_novo.png" class="justify-content-center img-fluid" alt="">
+					<input type="text" class="form-control text-center mt-3" id="placar1" placeholder="Placar do Brasil">
+				</div>
+			</div>
+
+			<div class="col-sm-1">    		
+				
+				<h3 class="text-center mt-4">X</h3>
+					
+			</div>
+
+			<div class="col-sm-3">    		
+				<div class="form-group">					
+					<label for="formGroupExampleInput"></label>
+					<img src="img/servia_novo.png" class="img-fluid" alt="">
+					<input type="text" class="form-control mt-3" id="placar2" placeholder="Placar do Brasil">
+				</div>
+			</div>
+
+
+			<div class="col-sm-3">    		
+				<div class="form-group">					
+					<label for="formGroupExampleInput"></label>
+					<img src="img/user.png" alt="">
+					<input type="text" class="form-control mt-3" id="nome" placeholder="Nome do Apostador">
+				</div>
+			</div>			
+
+    	</div>
+
+
+    	<button type="submit" name="apostar" class="btn btn-primary btn-lg btn-block">Apostar</button>
+
+		<hr>
+
+		</form>
+
+		</div>
+
+
+	<div class="container">
+
+		<h4 class="display-4 text-center mt-5">RESULTADOS</h4>
+		<table class="table table-hover">
+			
+			<thead>
+				<tr>
+					<th scope="col">ID</th>
+					<th scope="col">APOSTADOR</th>
+					<th scope="col">BRASIL</th>
+					<th class="col">SERVIA</th>
+				</tr>
+			</thead>
+
+		</table>    
+    	
+	</div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+  </body>
+</html>
